@@ -5,8 +5,8 @@
         <table class="table table-bordered">
             <tr>
                 <th>#</th>
-                <th>IP</th>
-                <th>Location</th>
+                <th>Request Url</th>
+                <th>Ip</th>
                 <th>At</th>
                 <th>User agent</th>
                 <th>Referer</th>
@@ -17,8 +17,8 @@
                     ?>
                     <tr>
                         <td><?= $i++ ?></td>
+                        <td><?= $access->request_uri?></td>
                         <td><?= $access->ip ?></td>
-                        <td><?= $access->request_uri ?></td>
                         <td><?= $access->created_at ?></td>
                         <td><?= $access->user_agent ?></td>
                         <td><?= $access->referer ?></td>
