@@ -1,0 +1,25 @@
+{
+    "name": "megaads/cliking-lara42",
+    "description": "The libraries for tracking requests",
+	"homepage": "https://www.megaads.vn",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Megaads",
+            "email": "info@megaads.vn"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src"
+        ],
+        "psr-4": {
+            "Megaads\\ClikingLara42\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
